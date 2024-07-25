@@ -1,0 +1,5 @@
+# yuklab olish : Download
+scp user@127.0.0.1:/path/dir/file.txt .
+
+# yuklab berish : Upload
+scp /path/dir/myfile.txt user@127.0.0.1:/path/dir/cp_file.txt

@@ -1,0 +1,5 @@
+# code id_rsa
+cat id_rsa |base64 -w 0 > id_rsa_base64
+
+# decode id_rsa_base64
+cat id_rsa_base64 |base64 -d > id_rsa_decode
