@@ -1,0 +1,14 @@
+# Open Microsoft Store > Choose WSL Linux distro > Install it
+# Open it > Add username, password > type this commands
+
+sudo echo "[boot]
+systemd=true">/etc/wsl.conf
+exit
+
+# Open Administrator Powershell > type this command
+
+wsl --shutdown
+
+# Done
+# This method help from used "systemd" commands.
+# You are going to use systemctl, service commands.
